@@ -1,0 +1,45 @@
+label{
+}
+
+.card-header{
+	background-color:;
+	width:100%;
+	height:50px;
+	margin-bottom:10px;
+
+}
+
+
+.containerForm{
+	background-color:;
+	width:100%;
+	height:500px;
+}
+
+.card{
+	background-color:;
+	width:100%;
+height:100%;
+}
+
+
+
+.card-body{
+	background-color:;
+	width:100%;
+height:60px;
+}
+
+.form-control{
+	background-color:;
+	width:90%;
+	height:20px;
+}
+
+.form-control-description{
+	background-color:;
+	width:100%;
+	height:30px;
+outline: none;
+}
+

@@ -1,0 +1,136 @@
+body{
+	background-color:#708090;
+}
+
+.cadreButon{
+	background-color:;
+	width:100%;
+	height:40px;
+	margin-bottom:15px;
+	font-size:20px;	
+} 
+
+.banner{
+	background-color:;
+	width:100%;
+	height:40px;
+	margin-bottom:10px;
+} 
+
+.titreCategorie{
+	background-color:;
+	color:white;
+	width:100%;
+	height:30px;
+	font-weight:bold;
+	font-size:25px;	
+	padding:10px;
+	margin-bottom:10px;
+} 
+
+.container{
+	background-color:red;
+	width:100%;
+	height:100px;
+
+}
+
+
+.cadre{
+	background-color:;
+	width:260px;
+	height:275px;
+	margin:5px;
+	float:left;
+	border:solid 2px lightblue;
+}
+
+.blocImage{
+	background-color:lightgrey;
+	width:256px;
+	height:236px;
+	padding:2px;
+}
+
+.cadre img{
+	width:257px;
+	height:237px;
+}
+
+.blocAdresse{
+	background-color:#000 ;
+	width:97%;
+	height:30px;	
+	float:left;
+	padding: 2px 3px;
+	text-align: center;
+	border:none;
+	font-size:20px;
+	line-height: 10px;
+}
+
+.blocAdresse a { 
+text-decoration: none; 
+color:white;
+font-size:30px;
+	line-height: 27px;
+
+}
+
+.titre{
+	background-color:#000;
+	width:260px;
+	height:40px;
+	position:absolute;
+	font-size:20px;
+	line-height: 40px;
+}
+
+.overlay{
+	background-color:#0e2224;
+	color:white;	
+	width:260px;
+	height:240px;
+	position:absolute;
+	opacity: 0;
+}
+
+.overlay p{
+color:white;
+padding:15px;
+margin-top:40px;
+font-size:24px;
+}
+
+.overlay:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=50);
+}
+
+
+.blocFooter{
+	background-color:;
+	width:100%;
+	height:40px;
+}
+
+
+
+
+.containerForm{
+	background-color:;
+	width:100%;
+	height:240px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
