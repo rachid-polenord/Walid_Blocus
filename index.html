@@ -1,28 +1,97 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Votre titre de page</title>
-    <link rel="stylesheet" type="text/css" href="votre-style.css">
+  <meta charset="UTF-8">
+  <title>Mon Son Perso</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+      background: #f9f9f9;
+      color: #333;
+    }
+    h1, h3 {
+      margin-top: 20px;
+    }
+    .video-row {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+      gap: 20px;
+    }
+    .video-item {
+      width: 320px;
+      text-align: center;
+    }
+    .video-item img {
+      width: 100%;
+      border-radius: 8px;
+      transition: transform 0.2s;
+    }
+    .video-item img:hover {
+      transform: scale(1.03);
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  </style>
 </head>
 <body>
-    <button class="cadreButon">
-        <a class="bouton" href="create.php">AJOUTER UN SITE</a>
-    </button>
+  <h1>Tu voulais du bon son !!!</h1>
+  <p>... tu voulais savoir quel type de musique j'écoute !?!!???</p>
+  <p>Tu me connais un peu maintenant ... ?!!</p>
+  <p>Voici pour toi quelques bons sons PERSO ;)</p>
+  <p>Mais toujours avec un fond !!!</p>
+  <p>La forme, c'est bien, mais le fond, c'est le plus important... voici ce qui me touche en ce moment avec mes art60 ;)</p>
 
-    <div class="titreCategorie">
-        GRAPHISME
+  <div class="video-row">
+    <div class="video-item">
+      <h3>1 - bref j'ai trouvé un JOB !</h3>
+      <a href="https://www.youtube.com/watch?v=DUDE5JWW-q8" target="_blank">
+        <img src="https://img.youtube.com/vi/DUDE5JWW-q8/hqdefault.jpg" alt="Vidéo 1">
+      </a>
     </div>
 
-    <div class="container">
-        <!-- Votre boucle PHP a été supprimée, car HTML ne prend pas en charge le code PHP -->
-        <!-- Vous pouvez ajouter des éléments HTML statiques ici -->
+    <div class="video-item">
+      <h3>2 - Parodie dans la réalité !!</h3>
+      <a href="https://www.youtube.com/watch?v=Bm3KaZkHVxI" target="_blank">
+        <img src="https://img.youtube.com/vi/Bm3KaZkHVxI/hqdefault.jpg" alt="Vidéo 2">
+      </a>
     </div>
 
-    <!-- Footer statique -->
-    <footer>
-        <p>Votre contenu de pied de page</p>
-    </footer>
+    <div class="video-item">
+      <h3>3 - Nous sommes une équipe</h3>
+      <a href="https://www.youtube.com/watch?v=T3FJivSwveM" target="_blank">
+        <img src="https://img.youtube.com/vi/T3FJivSwveM/hqdefault.jpg" alt="Vidéo 3">
+      </a>
+    </div>
+  </div>
+
+  <div class="video-row">
+    <div class="video-item">
+      <h3>4A - Pour nous !!!</h3>
+      <a href="https://www.youtube.com/watch?v=0aMPAKR9hr4" target="_blank">
+        <img src="https://img.youtube.com/vi/0aMPAKR9hr4/hqdefault.jpg" alt="Vidéo 4A">
+      </a>
+    </div>
+
+    <div class="video-item">
+      <h3>4B - Service public</h3>
+      <a href="https://www.youtube.com/watch?v=CW4PtgKDc1k" target="_blank">
+        <img src="https://img.youtube.com/vi/CW4PtgKDc1k/hqdefault.jpg" alt="Vidéo 4B">
+      </a>
+    </div>
+
+    <div class="video-item">
+      <h3>4C - MERCI LA VILLE</h3>
+      <a href="https://www.youtube.com/watch?v=BP3_dgTofKA" target="_blank">
+        <img src="https://img.youtube.com/vi/BP3_dgTofKA/hqdefault.jpg" alt="Vidéo 4C">
+      </a>
+    </div>
+  </div>
 </body>
 </html>
