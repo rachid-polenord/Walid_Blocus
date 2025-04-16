@@ -38,6 +38,43 @@
       text-decoration: none;
       color: inherit;
     }
+    .image-container {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .image-container img {
+      width: 200px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+    }
+    
+    /* Style de la modale */
+    .modal {
+      display: none; /* Masqué par défaut */
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.7);
+      justify-content: center;
+      align-items: center;
+    }
+    .modal-content {
+      max-width: 90%;
+      max-height: 80%;
+    }
+    .close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 30px;
+      color: white;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
@@ -93,5 +130,36 @@
       </a>
     </div>
   </div>
+
+  <!-- Image added as a clickable thumbnail -->
+  <div class="image-container">
+    <img id="thumbnail" src="equipe_etude_2025.png" alt="Image finale" onclick="openModal()">
+  </div>
+
+  <!-- Modale -->
+  <div id="myModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImg">
+  </div>
+
+  <script>
+    // Ouvrir la modale
+    function openModal() {
+      var modal = document.getElementById("myModal");
+      var modalImg = document.getElementById("modalImg");
+      var thumbnail = document.getElementById("thumbnail");
+
+      // Définit l'image de la modale à l'image cliquée
+      modal.style.display = "flex";
+      modalImg.src = thumbnail.src; // Utilise la même image source
+    }
+
+    // Fermer la modale
+    function closeModal() {
+      var modal = document.getElementById("myModal");
+      modal.style.display = "none";
+    }
+  </script>
+
 </body>
 </html>
